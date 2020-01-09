@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wrapper {
+  position: relative;
+}
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation-name: discover;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  background-color: white;
+}
+
+@-webkit-keyframes discover {
+  from {
+    top: 0;
+    }
+  to {
+    top: 100%;
+    }
+}
+@-o-keyframes discover {
+  from {
+    top: 0;
+    }
+  to {
+    top: 100%;
+    }
+}
+@-moz-keyframes discover {
+  from {
+    top: 0;
+    }
+  to {
+  top: 100%;
+    }
+}
+@keyframes discover {
+  from {
+    top: 0;
+    }
+  to {
+    top: 100%;
+    }
+}
